@@ -13,6 +13,29 @@
 html {
     font-family: "Lucida Sans", sans-serif;
 }
+#myProgress {
+  width: 80%;
+  height: 30px;
+  margin-left: 20px;
+  background-color: #ddd;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+#myProgress last-child{
+  margin: 0;
+}
+
+#myBar {
+  width: 10%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+#label {
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
 .left-side{
 	padding:10px;
 	padding-left: 20px;
@@ -21,7 +44,10 @@ html {
 	background-color:#494e59;
 }
 .about{
-	margin-bottom:40px;
+	margin-bottom:30px;
+}
+.about p{
+  padding-left: 5px;
 }
 .about li{
 	padding: inherit;
@@ -30,6 +56,10 @@ html {
 }
 .about li:last-child{
 	padding: none;
+}
+.fa-linkedin::after{
+  font-size: 20px;
+  margin-left: 10px;
 }
 .line{
 	font-size:20px;
