@@ -13,25 +13,25 @@
 html {
     font-family: "Lucida Sans", sans-serif;
 }
-#myProgress {
+.myProgress {
   width: 80%;
   height: 30px;
   margin-left: 20px;
   background-color: #ddd;
-  margin-bottom: 10px;
+  margin-bottom: 23px;
   border-radius: 6px;
 }
-#myProgress last-child{
-  margin: 0;
+.myProgress last-child{
+  margin-bottom: 20px;
 }
 
-#myBar {
+.myBar {
   width: 10%;
   height: 100%;
   background-color: #4CAF50;
 }
 
-#label {
+.label {
   text-align: center;
   line-height: 30px;
   color: white;
@@ -52,8 +52,9 @@ html {
 .about li{
 	padding: inherit;
 	font-size: 18px;
-	margin-bottom: 12px;
+	margin-bottom: 23px;
 }
+
 .about li:last-child{
 	padding: none;
 }
